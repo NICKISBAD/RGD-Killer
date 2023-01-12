@@ -1,4 +1,4 @@
--- #NebulaOnTop
+-- Gui2Lua v3.2
 
 local ScreenGui = Instance.new('ScreenGui')
 local Frame = Instance.new('Frame')
