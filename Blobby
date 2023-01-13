@@ -17,7 +17,7 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.Parent = game:GetService('CoreGui')
 
 Frame.LayoutOrder = 0
-Frame.Active = false
+Frame.Active = true
 Frame.Selectable = false
 Frame.AnchorPoint = Vector2.new(0, 0)
 Frame.SizeConstraint = Enum.SizeConstraint.RelativeXY
@@ -40,6 +40,7 @@ Frame.BorderMode = Enum.BorderMode.Outline
 Frame.BackgroundTransparency = 0
 Frame.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
 Frame.Parent = ScreenGui
+Frame.Draggable = true
 
 TextButton.LayoutOrder = 0
 TextButton.TextWrapped = true
